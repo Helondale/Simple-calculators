@@ -15,20 +15,20 @@ if ( operation === "+"){
     return value1 + value2
 }
 else if( operation === "-"){
-    //let result = value1 - value2
-    return result
+    return value1 - value2
+    
 
 }
 else if( operation === "/"){
-    //let result = value1 / value2
-    return result
+    return value1 / value2
+    
 }
 else if( operation === "*"){
-    //let result = value1 * value2
-    return result
+    return value1 * value2
+    
 }
 };
-console.log(basicOperations("+", 2, 3))
+console.log(basicOperations("-", 5, 3))
 
 function totalPoints(scores){
 let p1 = 0;
@@ -94,7 +94,7 @@ else if(month > 9 && month <= 12){
 }
 
 };
-console.log(quarterOfTheYear(5));
+console.log(quarterOfTheYear(6));
 
 function whichCentury(year){
     if(year < 2000){
