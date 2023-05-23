@@ -1,5 +1,4 @@
-// YOUR CODE COMES HERE
-let cica = {"match1":"2:1", "match2":"3:4", "match3":"2:4"};
+let matches = {"match1":"2:1", "match2":"3:4", "match3":"2:4"};
 function evenOrOdd(string) {
     if (string % 2 == 0) {
         return "Even"
@@ -16,16 +15,12 @@ if ( operation === "+"){
 }
 else if( operation === "-"){
     return value1 - value2
-    
-
 }
 else if( operation === "/"){
-    return value1 / value2
-    
+    return value1 / value2 
 }
 else if( operation === "*"){
     return value1 * value2
-    
 }
 };
 console.log(basicOperations("-", 5, 3))
@@ -39,7 +34,7 @@ let t2 = value.split(":")[1];
 if ( t1 > t2){
     p1 += 3 
 }
-else if(t2>t1){
+else if(t2 > t1){
     p2 += 3
 } else {
     p1++
@@ -50,14 +45,13 @@ else if(t2>t1){
 if ( p1 > p2){
     return "Team 1 won"
 }
-else if(p2>p1){
+else if(p2 > p1){
     return "Team 2 won"
 } else {
     return "Tie"
 }
-
 };
-console.log(totalPoints(cica))
+console.log(totalPoints(matches))
 
 function largestNumber(a, b, c){
 let numbers =  [
@@ -99,16 +93,12 @@ console.log(quarterOfTheYear(6));
 function whichCentury(year){
     if(year < 2000){
         return "20th"
-
     }
     else if(year >= 2000){
         return "21th"
     }
-
-
 };
 console.log(whichCentury(1999))
-
 
 function formTheMinimum(numbers){
 numbers.sort()
